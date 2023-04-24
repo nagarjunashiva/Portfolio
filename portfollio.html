@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Nagarjuna Shiva A | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .hero-text {
+      animation: slideInLeft 1s ease;
+    }
+    .hero-subtext {
+      animation: slideInRight 1s ease;
+    }
+
+    .about-text {
+      animation: fadeIn 1s ease;
+    }
+
+    .skills-list li {
+      animation: fadeInUp 1s ease;
+      animation-delay: 0.2s;
+    }
+
+    .projects-list li {
+      animation: fadeInUp 1s ease;
+      animation-delay: 0.2s;
+    }
+
+    .contact-list li {
+      animation: fadeIn 1s ease;
+    }
+
+    .footer-text {
+      animation: fadeIn 1s ease;
+    }
+
+        @keyframes slideInLeft {
+      from {
+        transform: translateX(-50px);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideInRight {
+      from {
+        transform: translateX(50px);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    
+    .gif-container {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .gif {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      margin: 0 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#home">Home</a></li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#skills">Skills</a></li>
+        <li class="nav-item"><a href="#projects">Projects</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="home" class="hero">
+    <h1 class="hero-text">Hello, I'm Nagarjuna Shiva A</h1>
+    <p class="hero-subtext">A Web Developer</p>
+  </section>
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p class="about-text">I am a final year Computer Science student at PSNA College of Engineering and Technology with a CGPA of 8.3 till 7th Semester. I have a strong interest in web development and have experience in HTML, CSS, JavaScript, and Python. In addition to my academic achievements,
+I am an aspiring web developer with a passion for creating visually appealing and user-friendly websites. I am skilled in HTML, CSS, JavaScript, and Python, and I have a solid understanding of web development principles and best practices. I am constantly learning and improving my skills to stay up-to-date with the latest web technologies.
+Apart from my technical skills, I am a highly motivated and dedicated individual with excellent problem-solving abilities. I am a quick learner and always eager to take on new challenges. I believe in teamwork and collaboration, and I am able to work effectively in both individual and team settings.
+I have also completed a Python course certification at SSI Institution, which has further strengthened my skills in Python programming.
+I am passionate about creating engaging and interactive web experiences for users, and I am always looking for new opportunities to expand my skills and contribute to exciting web projects.
+</p>
+  </section>
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Python</li>
+      <li>UI/UX Design</li>
+    </ul>
+  </section>
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <ul class="projects-list">
+      <li>
+        <h3>GYM MANAGEMENT SYSTEM</h3>
+        <p>A gym management system streamlines gym operations and member management, improving efficiency and engagement.</p>
+      </li>
+      <li>
+        <h3>COLLEGE ONLINE GRIEVANCE REDRESSAL SYSTEM</h3>
+        <p>An online grievance redressal system for colleges enables students and faculty to submit and track grievances, promoting efficient conflict resolution.</p>
+      </li>
+      <li>
+        <h3>WEATHER WEBSITE</h3>
+        <p>A weather website offers real-time weather info and forecasts for locations, helping users plan activities based on current conditions.</p>
+      </li>
+    </ul>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <ul class="contact-list">
+      <li>Email:<a href="mailto:nagarjunashiva5901@gmail.com" target="_blank">nagarjunashiva5901@gmail.com</a></li>
+      <li>Phone: 9080813367</li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/nagarjuna-shiva-a-34b35a217" target="_blank">Nagarjuna Shiva A</a></li>
+      <li>GitHub: <a href="https://github.com/nagarjunashiva" target="_blank">https://github.com/nagarjunashiva</a></li>
+    </ul>
+  </section>
+  <footer class="footer">
+    <p class="footer-text">© 2023 Nagarjuna Shiva A. All rights reserved.</p>
+  </footer>
+</body>
+</html>
